@@ -1,0 +1,24 @@
+﻿*****************************************************************
+정보
+
+NILM by capstone team 13
+(20.04.20~)
+
+*****************************************************************
+파일 구성
+
+main.py
+lib
+	- LSTM.py: 예측 모듈
+	- auto_encoder: denoising 모듈
+	- GAN: data 증식 모듈
+	- simple_classifier : data classification 모듈
+
+*****************************************************************
+Comment
+
+preprocessing에서 MaxAbs scailing 추가, 사용.
+
+simple_classification에서 input을 차분한 데이터와 현재 데이터를 동시에 입력받도록 수정. (auto encoder도 마찬가지)
+
+저장모델 이름 변경
